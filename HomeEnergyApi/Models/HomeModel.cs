@@ -15,10 +15,17 @@ public class Home
 
     [Range(0, 40)]
     public int? MonthlyElectricUsage { get; init;}
+
+    public Home (int id, string ownerLastName, string streetAddress, string city, int monthlyElectricUsage)
+    {
+        Id = id;
+        OwnerLastName = ownerLastName;
+        StreetAddress = streetAddress;
+        City = city;
+        MonthlyElectricUsage = monthlyElectricUsage;
+    }
 }
 
 
 
 
-
-//(int Id, string OwnerLastName, string StreetAddress, string City, int MonthlyElectricUsage);
