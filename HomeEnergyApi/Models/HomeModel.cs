@@ -16,7 +16,7 @@ public class Home
     [Range(0, 50000, ErrorMessage = "Monthly electric usage is limited to positive numbers of 50,000 kWh or less")]
     public int? MonthlyElectricUsage { get; init;}
 
-    public Home (int id, string ownerLastName, string streetAddress, string city, int monthlyElectricUsage)
+    public Home (int id, string ownerLastName, string? streetAddress, string? city, int? monthlyElectricUsage)
     {
         Id = id;
         OwnerLastName = ownerLastName;
