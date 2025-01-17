@@ -5,10 +5,10 @@ public class Home
     [Required]
     public int Id { get; init;}
 
-    [Required]
+    [Required(ErrorMessage = "The OwnerLastName field is required.")]
     public string OwnerLastName { get; init;}
     
-    [StringLength(40)]
+    [StringLength(40, ErrorMessage = "The field StreetAddress must be a string with a maximum length of 40.")]
     public string? StreetAddress { get; init;}
 
     public string? City { get; init;}
