@@ -1,1 +1,0 @@
-{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"home":["The home field is required."],"$.Id":["The JSON value could not be converted to Home. Path: $.Id | LineNumber: 1 | BytePositionInLine: 14."]},"traceId":"00-2ce53e5431f2f3085656a68115814e2d-aaed882d56d0ca04-00"}

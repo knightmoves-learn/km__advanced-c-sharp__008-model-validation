@@ -1,1 +1,0 @@
-{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"MonthlyElectricUsage":["Monthly electric usage is limited to positive numbers of 50,000 kWh or less"]},"traceId":"00-a01543299cda189b590f6ccde7d43259-a76764a81694b1d0-00"}
