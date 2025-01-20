@@ -20,7 +20,7 @@ In `HomeEnergyApi/Models/HomeModel.cs`...
   - `Home` should contain a public constructor taking one argument for each of its properties and assigning each of their values.
   - `Home.Id` and `Home.OwnerLastName` should be required fields.
   - `Home.StreetAddress` should require a maximum length of 40 characters.
-  - `Home.MontlhyElectricUsage` should require a positive integer of 50,000 or less.
+  - `Home.MontlhyElectricUsage` should require a positive integer of 50,000 or less and return the custom error message `Monthly electric usage is limited to positive numbers of 50,000 kWh or less`.
 
 Additional Information:
 
