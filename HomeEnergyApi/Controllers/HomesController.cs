@@ -45,5 +45,27 @@ namespace HomeEnergyUsageApi.Controllers
             }
             return null;
         }
+
+        [HttpDelete("{id}")]
+        public Home DeleteHome(int id)
+        {
+            Home homeToDelete = null;
+
+            foreach (Home home in homesList)
+            {
+                if (home.Id == id)
+                    homeToDelete = home;
+            }
+
+            if (homeToDelete != null)
+            {
+                homesList.Remove(homeToDelete);
+                return homeToDelete;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }
