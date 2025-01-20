@@ -10,13 +10,13 @@ In this assignment you will add Model Validation to our Home Energy Api's Model.
 
 In `HomeEnergyApi/Models/HomeModel.cs`...
 
-- Covert type `Home` from a public record, to a public class
+- Convert type `Home` from a public record, to a public class
   - `Home` should contain 5 public properties.
     - `int Id`
     - `string OwnerLastName`
     - `string? StreetAddress`
     - `string? City`
-    - `int? City`
+    - `int? MonthlyElectricUsage`
   - `Home` should contain a public constructor taking one argument for each of its properties and assigning each of their values.
   - `Home.Id` and `Home.OwnerLastName` should be required fields.
   - `Home.StreetAddress` should require a maximum length of 40 characters.
